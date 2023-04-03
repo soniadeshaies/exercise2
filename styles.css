@@ -1,0 +1,34 @@
+body{
+    /* background-color: black; */
+    color: black;
+    margin: 0;
+}
+
+/* This allows you to be able to position html elements starting from the top left instead of displaying as block under p5.js canvas */
+#html-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#body{
+    background-image: url('images/face2.png');
+    background-position: center; 
+    background-repeat: norepeat;
+    background-size: 30%;
+}
+
+.offer{
+    padding: 10%;
+    color: white;
+    background-color: black;
+}
+
+#bear{
+    display: none;
+    z-index: 2;
+}
+
+#background {
+    display: none;
+}
